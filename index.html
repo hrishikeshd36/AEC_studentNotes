@@ -13,6 +13,12 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
     <!-- Custom STyle Sheet -->
     <link rel="stylesheet" href="style.css" />
 
@@ -24,6 +30,7 @@
         <h1>aec_Notes</h1>
       </div>
       <ul>
+        <li><a href="#">First Year</a></li>
         <li><a href="#">Chemical</a></li>
         <li><a href="#">CSE</a></li>
         <li><a href="#">Civil</a></li>
@@ -32,7 +39,34 @@
         <li><a href="#">Instrumentation</a></li>
         <li><a href="#">IPE</a></li>
         <li><a href="#">About us</a></li>
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </ul>
     </nav>
+
+    <aside class="sidebar">
+      <div class="side-head">
+        <h3>Menu</h3>
+        <div class="cross-toggle">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="menu-block">
+          <h5>Branch:</h5>
+          <a href="#" class="menu-item">Chemical</a>
+          <a href="#" class="menu-item">Civil</a>
+          <a href="#" class="menu-item">CSE</a>
+          <a href="#" class="menu-item">Electrical</a>
+          <a href="#" class="menu-item">ETE</a>
+          <a href="#" class="menu-item">Instrumentation</a>
+          <a href="#" class="menu-item">IPE</a>
+          <a href="#" class="menu-item">About US</a>
+          <hr />
+        </div>
+      </div>
+    </aside>
+    <script src="script.js"></script>
   </body>
 </html>
