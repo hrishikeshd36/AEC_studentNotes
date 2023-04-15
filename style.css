@@ -6,70 +6,22 @@
 }
 
 body {
-  /* background-image: linear-gradient(
-    to right bottom,
-    #041125,
-    #04192d,
-    #042134,
-    #03283b,
-    #023042,
-    #02394b,
-    #014253,
-    #024b5b,
-    #015767,
-    #006373,
-    #00707f,
-    #027d8a
-  ); */
-  background-color: #006373;
-
   font-family: "lato";
+  background-color: #000;
   font-size: 14px;
   color: #ffffff;
-  /* background-size: cover; */
   background-repeat: no-repeat;
 }
 
-nav {
-  display: flex;
-  padding: 15px 3%;
-  justify-content: space-between;
+.clearfix {
+  zoom: 1;
 }
-
-nav h1 {
-  text-transform: uppercase;
-  font-size: 24px;
-}
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: space-around;
-}
-nav ul li {
-  font-weight: 300;
-  font-size: 14px;
-  /* margin-left: 18px; */
-  padding: 10px 12px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-nav ul li:hover {
-  background-color: #ffffff1a;
-  transition: 0.2s;
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
 /* ==================================== */
@@ -167,6 +119,149 @@ nav ul li:hover {
   cursor: pointer;
 }
 /* ------------------------------ */
+
+nav {
+  display: flex;
+  padding: 15px 3%;
+  justify-content: space-between;
+}
+
+nav h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul li {
+  font-weight: 300;
+  font-size: 14px;
+  /* margin-left: 18px; */
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li:hover {
+  background-color: #ffffff1a;
+  transition: 0.2s;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(resources/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Josefine Sans", sans-serif;
+  width: 700px;
+  margin-top: 9%;
+  margin-left: 7%;
+  padding: 50px;
+  backdrop-filter: blur(100px);
+  text-transform: capitalize;
+}
+
+.main span {
+  color: red;
+}
+
+/* ===================
+=======Branch=========
+===================== */
+section.branch{
+  background-color: #000;
+}
+.branch h3{
+  font-size: 30px;
+  font-family: "Josefine Sans", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.branch a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.branch-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto 50px;
+}
+.br-img {
+  height: 180px;
+  width: 320px;
+  background-size: cover;
+  border-radius: 20px;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+.br-img img{
+  width: 320px;
+  height: 180px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(1.2);
+  opacity: 0.5;
+  transition: 0.7s;
+
+}
+.branch-block:hover img{
+  opacity: 1;
+  transition: 0.8s;
+  transform: scale(1);
+}
+.branch-block {
+  margin: 0 0 60px;
+  padding: 20px 15px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1a1a1a ;
+  transition: 0.5s;
+}
+.branch-block:hover {
+  
+  transition: 0.5s;
+}
+
+.branch-block p {
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+
+
 
 /* responsive design */
 @media screen and (max-width: 1200px) {
