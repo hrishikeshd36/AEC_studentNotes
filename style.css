@@ -7,10 +7,11 @@
 
 body {
   font-family: "lato";
-  background-color: #000;
+  background-color: #ffffff;
   font-size: 14px;
-  color: #ffffff;
+  color: #000;
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 .clearfix {
@@ -32,7 +33,6 @@ body {
   top: 0;
   left: -400px;
   height: 100vh;
-
   z-index: 999;
   flex: 1 1 0;
   width: 100%;
@@ -76,6 +76,10 @@ body {
   width: 100%;
   font-size: 18px;
 }
+.menu-block hr {
+  height: 0px;
+  border: 0.5px solid #08829553;
+}
 .sidebar .menu .menu-item {
   display: block;
   padding: 10px 0 10px 2.8em;
@@ -107,7 +111,7 @@ body {
   justify-content: space-between;
   /* width: 100%; */
   padding: 10px;
-  background-color: #1a1a1a;
+  background-color: #088395;
 }
 .side-head i {
   color: #fff;
@@ -123,7 +127,10 @@ body {
 nav {
   display: flex;
   padding: 15px 3%;
+  color: #fff;
   justify-content: space-between;
+  background-color: #05bfdb;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 nav h2 {
@@ -142,7 +149,7 @@ nav ul {
   justify-content: space-around;
 }
 nav ul li {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   /* margin-left: 18px; */
   padding: 10px 12px;
@@ -152,7 +159,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -162,11 +169,10 @@ nav ul li:hover {
   transition: 0.2s;
 }
 
+/* ==========HERO========== */
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url(resources/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -176,34 +182,46 @@ h1 {
   font-size: 40px;
   font-family: "Josefine Sans", sans-serif;
   width: 700px;
-  margin-top: 9%;
-  margin-left: 7%;
+  /* margin-top: 9%; */
+  /* margin-left: 7%; */
   padding: 50px;
   backdrop-filter: blur(100px);
+  background-color: #0000001e;
   text-transform: capitalize;
 }
 
 .main span {
   color: red;
 }
-
+.main{
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main img{
+  height: 400px;
+}
 /* ===================
 =======Branch=========
 ===================== */
-section.branch{
-  background-color: #000;
+.branch{
+  background-color: #088395;
+  padding-top: 5%;
+  padding-bottom: 1%;
 }
-.branch h3{
-  font-size: 30px;
+.branch h3 {
+  font-size: 40px;
   font-family: "Josefine Sans", sans-serif;
   font-weight: 100;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  color: #fff;
 }
 .branch a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000;
 }
 .branch-list {
   display: flex;
@@ -216,13 +234,13 @@ section.branch{
 .br-img {
   height: 180px;
   width: 320px;
-  background-size: cover;
+  /* background-size: cover; */
   border-radius: 20px;
   transition: 0.5s;
   position: relative;
   overflow: hidden;
 }
-.br-img img{
+.br-img img {
   width: 320px;
   height: 180px;
   border-radius: 20px;
@@ -230,12 +248,9 @@ section.branch{
   top: 0;
   left: 0;
   transform: scale(1.2);
-  opacity: 0.5;
   transition: 0.7s;
-
 }
-.branch-block:hover img{
-  opacity: 1;
+.branch-block:hover img {
   transition: 0.8s;
   transform: scale(1);
 }
@@ -244,12 +259,12 @@ section.branch{
   padding: 20px 15px;
   border-radius: 20px;
   text-align: center;
-  background-color: #1a1a1a ;
+  background-color: #fff;
   transition: 0.5s;
 }
 .branch-block:hover {
-  
   transition: 0.5s;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .branch-block p {
@@ -261,7 +276,17 @@ section.branch{
 }
 
 
-
+/* footer */
+footer{
+  background-color: #00FFCA;
+  text-align: center;
+  padding: 1.5% 0 10px;
+  color: #0A4D68;
+}
+footer p{
+  font-size: 16px;
+  text-transform: uppercase;
+}
 
 /* responsive design */
 @media screen and (max-width: 1200px) {
