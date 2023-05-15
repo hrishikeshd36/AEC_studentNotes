@@ -3,15 +3,17 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
 }
 
 body {
-  font-family: "lato";
+  font-family: "Dosis", sans-serif;
   background-color: #ffffff;
   font-size: 14px;
   color: #000;
   background-repeat: no-repeat;
   scroll-behavior: smooth;
+  font-family: "Dosis", sans-serif;
 }
 
 .clearfix {
@@ -131,7 +133,7 @@ nav {
   color: #fff;
   justify-content: space-between;
   background-color: #05bfdb;
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 nav h2 {
@@ -181,7 +183,7 @@ nav ul li:hover {
 }
 h1 {
   font-size: 40px;
-  font-family: "Josefine Sans", sans-serif;
+  font-family: "Dosis", sans-serif;
   width: 700px;
   /* margin-top: 9%; */
   /* margin-left: 7%; */
@@ -194,27 +196,27 @@ h1 {
 .main span {
   color: red;
 }
-.main{
+.main {
   margin-top: 7%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.main img{
+.main img {
   height: 400px;
 }
 /* ===================
 =======Branch=========
 ===================== */
-.branch{
+.branch {
   background-color: #088395;
   padding-top: 5%;
   padding-bottom: 1%;
 }
 .branch h3 {
   font-size: 40px;
-  font-family: "Josefine Sans", sans-serif;
-  font-weight: 100;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 60px;
   text-transform: uppercase;
@@ -265,26 +267,26 @@ h1 {
 }
 .branch-block:hover {
   transition: 0.5s;
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .branch-block p {
+  font-family: "Dosis", sans-serif;
   margin-top: 10px;
   font-size: 16px;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 300;
 }
-
 
 /* footer */
-footer{
-  background-color: #00FFCA;
+footer {
+  background-color: #00ffca;
   text-align: center;
   padding: 1.5% 0 10px;
-  color: #0A4D68;
+  color: #0a4d68;
 }
-footer p{
+footer p {
   font-size: 16px;
   text-transform: uppercase;
 }

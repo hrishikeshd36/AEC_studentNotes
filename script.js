@@ -26,3 +26,4 @@ mob_ham_scroll.addEventListener("click", () => {
   mob_ham_scroll.classList.toggle("is-active");
   sidebar.classList.toggle("is-active");
 });
+
