@@ -43,7 +43,9 @@ body {
   justify-content: space-around;
 }
 .mem-card {
-  background-color: #088395;
+  padding: 20px;
+  background-color: #0a4d68;
+  border-radius: 10px;
 }
 .mem-card img {
   width: 200px;
