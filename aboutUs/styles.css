@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "lato";
+  font-family: "Dosis", sans-serif;
   background-color: #ffffff;
   font-size: 14px;
   color: #000;
@@ -39,13 +39,21 @@ body {
 /* Member-card */
 .members {
   margin-top: 60px;
+}
+.core,
+.sub-core {
   display: flex;
   justify-content: space-around;
+}
+.sub-core {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 .mem-card {
   padding: 20px 40px;
   background-color: #0a4d68;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 .mem-card img {
   width: 200px;
