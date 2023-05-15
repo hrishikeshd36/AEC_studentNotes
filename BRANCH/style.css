@@ -67,6 +67,15 @@ body {
     text-align: left;
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sem-card{
+    padding: 50px;
+    margin: 10px;
+    background-color: #0A4D68;
+    border-radius: 30px;
 }
 .sem h4{
     font-size: 24px;
