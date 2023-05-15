@@ -99,6 +99,7 @@ body {
 }
 
 .menu-toggle {
+  margin-left: 10px;
   cursor: pointer;
 }
 
