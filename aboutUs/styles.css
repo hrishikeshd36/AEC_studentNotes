@@ -1,27 +1,38 @@
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "lato";
-    background-color: #ffffff;
-    font-size: 14px;
-    color: #000;
-    background-repeat: no-repeat;
-    scroll-behavior: smooth;
-  }
-  
-  .clearfix {
-    zoom: 1;
-  }
-  .clearfix:after {
-    content: ".";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "lato";
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #000;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Team Section */
+.team{
+    color: #fff;
+    background-color: #0A4D68;
+    padding: 3% 2%;
+}
+.team h1{
+    text-align: center;
+    font-size: 36px;
+
+}
