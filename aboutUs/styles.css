@@ -7,7 +7,7 @@
 
 body {
   font-family: "Dosis", sans-serif;
-  background-color: #ffffff;
+  background-color: #f9fbe7;
   font-size: 14px;
   color: #000;
   background-repeat: no-repeat;
@@ -27,13 +27,14 @@ body {
 
 /* Team Section */
 .team {
-  color: #fff;
-  background-color: #088395;
+  color: #eccdb4;
   padding: 3% 2%;
 }
-.team h1 {
+.team-head {
   text-align: center;
-  font-size: 36px;
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 /* Member-card */
@@ -51,7 +52,7 @@ body {
 }
 .mem-card {
   padding: 20px 40px;
-  background-color: #0a4d68;
+  background-color: #393646;
   border-radius: 10px;
   margin-bottom: 50px;
 }
@@ -69,5 +70,5 @@ body {
   margin-bottom: 10px;
 }
 a {
-  color: #fff;
+  color: #eccdb4;
 }
