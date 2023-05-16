@@ -88,6 +88,27 @@ a {
   color: #f39140;
 }
 
-@media screen and (max-width: 1025px) {
+.descript{
+  width: 90%;
+  margin: 80px auto 30px;
+}
+.descript p{
+  font-size: 18px;
+  color: #f1b17c;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.head{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #f1b17c;
+}
+
+@media screen and (max-width: 426px) {
+  .descript p{
+    font-size: 14px;
     
+  }
 }
