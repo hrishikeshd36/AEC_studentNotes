@@ -63,7 +63,7 @@ body {
 }
 
 /* ================== */
-.sem {
+/* .sem {
   text-align: left;
   width: 1200px;
   margin: 0 auto;
@@ -96,4 +96,14 @@ body {
   color: #fff;
   font-weight: 600;
   letter-spacing: 1px;
-}
+} */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  li::before {
+    content: "▸";
+    margin-right: 5px;
+  }
+
