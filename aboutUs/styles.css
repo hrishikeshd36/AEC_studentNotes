@@ -35,6 +35,7 @@ body {
   font-size: 42px;
   text-transform: capitalize;
   font-weight: 600;
+  color: #f1b17c;
 }
 
 /* Member-card */
@@ -45,6 +46,7 @@ body {
 .sub-core {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .sub-core {
   margin: 0 auto;
@@ -71,4 +73,21 @@ body {
 }
 a {
   color: #eccdb4;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.social-links a i {
+  font-size: 20px;
+}
+
+.social-links a i:hover {
+  color: #f39140;
+}
+
+@media screen and (max-width: 1025px) {
+    
 }
