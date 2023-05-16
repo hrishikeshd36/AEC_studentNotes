@@ -48,7 +48,7 @@ body {
 /* scroll-bar */
 /* width */
 .sidebar::-webkit-scrollbar {
-  width: 8px;
+  width: 0px;
 }
 
 /* Track */
@@ -59,7 +59,7 @@ body {
 
 /* Handle */
 .sidebar::-webkit-scrollbar-thumb {
-  background: #1a1a1a;
+  background: #fea1a1;
 }
 /* scroll-bar */
 
@@ -80,7 +80,7 @@ body {
 }
 .menu-block hr {
   height: 0px;
-  border: 0.5px solid #08829553;
+  border: 0.5px solid #eccdb4;
 }
 .sidebar .menu .menu-item {
   display: block;
@@ -95,8 +95,7 @@ body {
 
 .sidebar .menu .menu-item:hover,
 .sidebar .menu .menu-item.is-active {
-  color: #1a1a1a;
-  background-color: #1a1a1a;
+  background-color: #fea1a1;
   color: #fff;
 }
 
