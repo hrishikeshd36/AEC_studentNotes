@@ -493,3 +493,15 @@ footer p {
 .btn-list a {
   color: inherit;
 }
+
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter p{
+  margin-right: 10px;
+  color: #000;
+  letter-spacing: 0;
+  
+}
